@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Thiên Văn</title>
+    <link rel="stylesheet" href="styleweb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Trang Chủ</a></li>
+                <li><a href="#planets">Hành Tinh</a></li>
+                <li><a href="#constellations">Chòm Sao</a></li>
+                <li><a href="#comets">Sao Chổi</a></li>
+                <li><a href="#observatories">Đài Quan Sát</a></li>
+            </ul>
+        </nav>
+        <div class="login-register">
+            <button onclick="location.href='login.html'">Đăng Nhập</button>
+            <button onclick="location.href='register.html'">Đăng Ký</button>
+        </div>
+    </header>
+    <main>
+        <section class="featured">
+            <!-- Có thể thêm slider ảnh hoặc video -->
+            <h1>Khám Phá Vũ Trụ Cùng Chúng Tôi</h1>
+        </section>
+        <section class="content">
+            <h2>Tin Mới Nhất</h2>
+            <div class="articles">
+                <article>
+                    <img src="path/to/image1.jpg" alt="Article Title">
+                    <h3>Tiêu đề bài viết</h3>
+                    <p>Mô tả ngắn gọn...</p>
+                </article>
+                <!-- Thêm các bài viết khác tương tự -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Bản quyền thuộc về Trang Web Thiên Văn</p>
+    </footer>
+    <script> //script hiệu ứng của slider
+        document.addEventListener('DOMContentLoaded', function () {
+            $('.featured-slider').slick({
+                autoplay: true,
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear'
+            });
+        });
+        </script>
+</body>
+</html>
