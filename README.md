@@ -1,2 +1,4 @@
 # DoAnKi1Aptech
-me and my bros
+
+
+!!!!!!  FILE DOANKI1 BỎ, BÂY GIỜ SỬ DỤNG FILE ASTRONOMY LÀM FILE CHÍNH CỦA DỰ ÁN, CÁC FILE TRONG DOANKI1 CÓ CHƯA DỮ LIỆU CÓ THỂ SỬ DỤNG LẠI TRONG ASTRONOMY NÊN GIỮ LẠI ĐỂ DÙNG !!!!!!
