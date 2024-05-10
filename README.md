@@ -44,7 +44,7 @@ CÁI NÀY CHÚNG TA CHỌN BLADE. LÀM NHƯ CÁC TRÊN
 
 - Would you like dark mode support? (yes/no) [no]:
 
-CÁI NÀY CHỌN : NO
+CÁI NÀY CHỌN : YES
 
 - Which testing framework do you prefer? [Pest]:
   [0] Pest
