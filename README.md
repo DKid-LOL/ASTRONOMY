@@ -81,4 +81,16 @@ BƯỚC 4: SAU KHI HOÀN THÀNH THÌ AE CHỈ CẦN COPY TẤT CẢ NHỮNG FILE
 
 BƯỚC 5: SAU KHI AE CHẮC CHẮN HOÀN THÀNH XONG DỰ ÁN VÀ MUỐN UP LÊN NHÁNH GITHUB CỦA BẢN THÂN THÌ HÃY COPY TẤT CẢ FILE TRONG FILE LARAVEL MÌNH VỪA LÀM VÀ PASTE LẠI VÀO ASTRONOMY SAU ĐÓ MỞ GITHUB LÊN VÀ SUMMARY SAU ĐÓ COMMIT LÊN NHÁNH CỦA AE ĐỂ EM XEM VÀ DUYỆT VÀO NHÁNH MAIN
 
+
+Lưu ý khi sử dụng thì mở visual code lên rồi nhập các lệnh lần lượt là 
+
+1: npm run dev
+2:php artisan server
+3: php artisan migrate:rollback
+4: php artisan migrate
+5: php artisan db:seed
+
+1 và 2 thì phải ghi ở 2 bảng cmd khác nhau
+còn 3 4 5 thì ghi cùng 1 cái được nhưng phải ghi theo thứ tự 3 > 4 > 5
+
 .HẾT
