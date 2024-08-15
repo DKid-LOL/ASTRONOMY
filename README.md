@@ -85,7 +85,7 @@ BƯỚC 5: SAU KHI AE CHẮC CHẮN HOÀN THÀNH XONG DỰ ÁN VÀ MUỐN UP LÊ
 Lưu ý khi sử dụng thì mở visual code lên rồi nhập các lệnh lần lượt là 
 
 1: npm run dev
-2:php artisan server
+2:php artisan serve
 3: php artisan migrate:rollback
 4: php artisan migrate
 5: php artisan db:seed
