@@ -132,13 +132,10 @@ BƯỚC 3: SỬ DỤNG LỆNH NÀY ĐỂ CÀI ĐẶT LARAVEL VÀO FOLDER MÌNH M
 
 
 
+                    
 
 
-
-
-
-
-!!!!        |------------------HƯỚNG DẪN CHO AE CLONE REPOSITORY VỀ ĐỂ KHỞI ĐỘNG DỰ ÁN:-----------------------|     
+!!!!        |------------------HƯỚNG DẪN CHO AE CLONE REPOSITORY VỀ ĐỂ KHỞI ĐỘNG DỰ ÁN:-----------------------|         !!!!
 
 
 Lưu ý khi sử dụng thì mở visual code lên rồi thì bấm ctrl + ` lên và làm theo các bước sau đây là:
