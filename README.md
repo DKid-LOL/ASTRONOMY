@@ -4,6 +4,9 @@ ASTRONOMY
 |...................................HƯỚNG DẪN AE TẠO DỰ ÁN LARAVEL MỚI........................................|
 
 
+            AI MÀ CLONE REPOSITORY VỀ THÌ KÉO XUỐNG PHẦN HƯỚNG DẪN KHỞI ĐỘNG Ở DƯỚI         
+
+
 BƯỚC 1: ĐẢM BẢO COMPOSER VÀ PHP ĐÃ Ở BIẾN GLOBAL BẰNG CÁCH
 
 
@@ -127,7 +130,7 @@ BƯỚC 3: SỬ DỤNG LỆNH NÀY ĐỂ CÀI ĐẶT LARAVEL VÀO FOLDER MÌNH M
 |     CÁI NÀY CHỌN YES     |
 
 
-------------------HƯỚNG DẪN AE KHỞI ĐỘNG DỰ ÁN:-----------------------
+!!!!        |------------------HƯỚNG DẪN CHO AE CLONE REPOSITORY VỀ ĐỂ KHỞI ĐỘNG DỰ ÁN:-----------------------|     
 
 
 Lưu ý khi sử dụng thì mở visual code lên rồi thì bấm ctrl + ` lên và làm theo các bước sau đây là:
