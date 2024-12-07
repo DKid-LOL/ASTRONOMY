@@ -129,12 +129,13 @@ BƯỚC 3: SỬ DỤNG LỆNH NÀY ĐỂ CÀI ĐẶT LARAVEL VÀO FOLDER MÌNH M
 
 |     CÁI NÀY CHỌN YES     |
 
-<br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
-!!!!        |------------------HƯỚNG DẪN CHO AE CLONE REPOSITORY VỀ ĐỂ KHỞI ĐỘNG DỰ ÁN:-----------------------|         !!!!
+            HƯỚNG DẪN CHO AE CLONE REPOSITORY VỀ ĐỂ KHỞI ĐỘNG DỰ ÁN         
 
+!!!!!!  Lưu ý : Nhớ clone vào thư mục làm việc của laragon(.www) hoặc XAMPP(.htdocs) để chạy server
 
-Lưu ý khi sử dụng thì mở visual code lên rồi thì bấm ctrl + ` lên và làm theo các bước sau đây là:
+!!!!!!  Lưu ý : Khi sử dụng thì mở thử mục clone về bằng visual code rồi bấm ctrl + ` lên và làm theo các bước sau đây:
 
 
 1:  npm install ( cái này để cài đặt npm )
@@ -172,5 +173,6 @@ Lưu ý khi sử dụng thì mở visual code lên rồi thì bấm ctrl + ` lê
 
 12: nếu nó hiện lên lỗi gì thì chỉ cần chọn generate key gì đó là xong 
 
+<br><br><br><br>
 
-|...................................HẾT........................................|
+|..................................................................HẾT..................................................................|
