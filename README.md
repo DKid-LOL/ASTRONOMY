@@ -1,119 +1,172 @@
 ASTRONOMY
 
 
-HƯỚNG DẪN AE TẠO LARAVEL ĐỂ GHÉP VÀO FILE DỰ ÁN ĐỂ SỬ DỤNG: BƯỚC 1: ĐẢM BẢO COMPOSER VÀ PHP ĐÃ Ở BIẾN TOÀN CỤC BẰNG CÁCH
+|...................................HƯỚNG DẪN AE TẠO DỰ ÁN LARAVEL MỚI........................................|
 
-php -v
 
+BƯỚC 1: ĐẢM BẢO COMPOSER VÀ PHP ĐÃ Ở BIẾN GLOBAL BẰNG CÁCH
 
-composer -v
 
+- php -v
 
-BƯỚC 2: SỬ DỤNG LỆNH SAU ĐỂ CÀI LARAVEL VÀO MÁY TÍNH : composer global require laravel/installer BƯỚC 3: SỬ DỤNG LỆNH NÀY ĐỂ CÀI ĐẶT LARAVEL VÀO FOLDER MÌNH MUỐN : laravel new ten-foleder
 
+- composer -v
 
-LƯU Ý: TRONG LÚC CÀI LARAVEL SẼ HỎI NHỮNG CÁI NHƯ SỬ DỤNG DATABASE LOẠI NÀO HAY CÀI THÊM THƯ VIỆN GÌ THÌ HÃY CHỌN NHƯ SAU:
 
+BƯỚC 2: SỬ DỤNG LỆNH SAU ĐỂ CÀI LARAVEL VÀO MÁY TÍNH :
 
-Would you like to install a starter kit? [No starter kit]:
 
+- composer global require laravel/installer
 
-[none ] No starter kit
 
+BƯỚC 3: SỬ DỤNG LỆNH NÀY ĐỂ CÀI ĐẶT LARAVEL VÀO FOLDER MÌNH MUỐN :
 
-[breeze ] Laravel Breeze
 
+- laravel new ten-foleder
 
-[jetstream] Laravel Jetstream
 
+ !!!!!! LƯU Ý: TRONG LÚC CÀI LARAVEL SẼ HỎI NHỮNG CÁI NHƯ SỬ DỤNG DATABASE LOẠI NÀO HAY CÀI THÊM THƯ VIỆN GÌ THÌ HÃY CHỌN NHƯ SAU:
 
-CÁI NÀY HÃY CHỌN breeze BẰNG CÁCH GHI CHỮ breeze VÀO RỒI ENTER
 
+- Would you like to install a starter kit? [No starter kit]:
 
-Which Breeze stack would you like to install? [Blade with Alpine]:
 
+            [none ] No starter kit
 
-[blade ] Blade with Alpine
 
+            [breeze ] Laravel Breeze
 
-[livewire ] Livewire (Volt Class API) with Alpine
 
+            [jetstream] Laravel Jetstream
 
-[livewire-functional] Livewire (Volt Functional API) with Alpine
 
+|     CÁI NÀY HÃY CHỌN BREEZE     |
 
-[react ] React with Inertia
 
+- Which Breeze stack would you like to install? [Blade with Alpine]:
 
-[vue ] Vue with Inertia
 
+            [blade ] Blade with Alpine
 
-[api ] API only
 
+            [livewire ] Livewire (Volt Class API) with Alpine
 
-CÁI NÀY CHÚNG TA CHỌN BLADE. LÀM NHƯ CÁC TRÊN
 
+            [livewire-functional] Livewire (Volt Functional API) with Alpine
 
-Would you like dark mode support? (yes/no) [no]:
 
+            [react ] React with Inertia
 
-CÁI NÀY CHỌN : YES
 
+            [vue ] Vue with Inertia
 
-Which testing framework do you prefer? [Pest]: [0] Pest [1] PHPUnit
 
+            [api ] API only
 
-CÁI NÀY CHỌN 1
 
+|     CÁI NÀY CHÚNG TA CHỌN BLADE     |
 
-Would you like to initialize a Git repository? (yes/no) [no]:
 
+- Would you like dark mode support?
 
 
-CÁI NÀY CHỌN : NO
+            (yes/no) [no]:
 
 
-Which database will your application use? [SQLite]:
+|     CÁI NÀY CHỌN : YES     |
 
 
-[sqlite ] SQLite
+- Which testing framework do you prefer?
 
 
-[mysql ] MySQL
+            [Pest]: [0] Pest [1] PHPUnit
 
 
-[mariadb] MariaDB
+|     CÁI NÀY CHỌN 1     |
 
 
-[pgsql ] PostgreSQL (Missing PDO extension)
+- Would you like to initialize a Git repository?
 
 
-[sqlsrv ] SQL Server (Missing PDO extension)
+            (yes/no) [no]:
 
 
-CÁI NÀY AI DÙNG XAMPP THÌ CHỌN MYSQL, AI DÙNG LARAGON THÌ CHỌN MARIADB
+|     CÁI NÀY CHỌN : NO     |
 
 
-Default database updated. Would you like to run the default database migrations? (yes/no) [yes]:
+- Which database will your application use?
 
 
-CÁI NÀY CHỌN YES
+            [SQLite]:
 
 
-BƯỚC 4: SAU KHI HOÀN THÀNH THÌ AE CHỈ CẦN COPY TẤT CẢ NHỮNG FILE TRONG ASTRONOMY VỀ RỒI PASTE VÀO FILE LARAVEL VỪA TẠO LÀ XONG
+            [sqlite ] SQLite
 
 
-BƯỚC 5: SAU KHI AE CHẮC CHẮN HOÀN THÀNH XONG DỰ ÁN VÀ MUỐN UP LÊN NHÁNH GITHUB CỦA BẢN THÂN THÌ HÃY COPY TẤT CẢ FILE TRONG FILE LARAVEL MÌNH VỪA LÀM VÀ PASTE LẠI VÀO ASTRONOMY SAU ĐÓ MỞ GITHUB LÊN VÀ SUMMARY SAU ĐÓ COMMIT LÊN NHÁNH CỦA AE ĐỂ EM XEM VÀ DUYỆT VÀO NHÁNH MAIN
+            [mysql ] MySQL
 
 
-Lưu ý khi sử dụng thì mở visual code lên rồi nhập các lệnh lần lượt là
+            [mariadb] MariaDB
 
 
-1: npm run dev 2:php artisan serve 3: php artisan migrate:rollback 4: php artisan migrate 5: php artisan db:seed
+            [pgsql ] PostgreSQL (Missing PDO extension)
 
 
-1 và 2 thì phải ghi ở 2 bảng cmd khác nhau còn 3 4 5 thì ghi cùng 1 cái được nhưng phải ghi theo thứ tự 3 > 4 > 5
+            [sqlsrv ] SQL Server (Missing PDO extension)
 
 
+|     CÁI NÀY AI DÙNG XAMPP THÌ CHỌN MYSQL, AI DÙNG LARAGON THÌ CHỌN MARIADB     |
 
-.HẾT
+
+- Default database updated. Would you like to run the default database migrations?
+
+
+            (yes/no) [yes]:
+
+
+|     CÁI NÀY CHỌN YES     |
+
+
+------------------HƯỚNG DẪN AE KHỞI ĐỘNG DỰ ÁN:-----------------------
+
+
+Lưu ý khi sử dụng thì mở visual code lên rồi thì bấm ctrl + ` lên và làm theo các bước sau đây là:
+
+
+1:  npm install ( cái này để cài đặt npm )
+
+
+2:  composer install ( cài composer )
+
+
+3:  cp .env.example .env ( sao chép file env.example thành file .env)
+
+
+4:  npm run dev 
+
+
+5:  tạo 1 terminal mới bằng ctrl + shift + `
+
+
+6:  php artisan serve 
+
+
+7:  tạo 1 terminal mới bằng ctrl + shift + `
+
+
+8:  php artisan migrate:rollback 
+
+
+9:  php artisan migrate 
+
+
+10: php artisan db:seed
+
+
+11: lên web truy cập vào http://127.0.0.1:8000/
+
+
+12: nếu nó hiện lên lỗi gì thì chỉ cần chọn generate key gì đó là xong 
+
+
+|...................................HẾT........................................|
