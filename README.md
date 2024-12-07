@@ -128,8 +128,14 @@ BƯỚC 3: SỬ DỤNG LỆNH NÀY ĐỂ CÀI ĐẶT LARAVEL VÀO FOLDER MÌNH M
 
 
 |     CÁI NÀY CHỌN YES     |
-
-
+.
+.
+.
+.
+.
+.
+.
+.
 !!!!        |------------------HƯỚNG DẪN CHO AE CLONE REPOSITORY VỀ ĐỂ KHỞI ĐỘNG DỰ ÁN:-----------------------|     
 
 
