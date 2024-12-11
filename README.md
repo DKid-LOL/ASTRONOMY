@@ -171,7 +171,7 @@ BƯỚC 3: SỬ DỤNG LỆNH NÀY ĐỂ CÀI ĐẶT LARAVEL VÀO FOLDER MÌNH M
 11: lên web truy cập vào http://127.0.0.1:8000/
 
 
-12: nếu nó hiện lên lỗi gì thì chỉ cần chọn generate key gì đó là xong 
+12: nếu nó hiện lên lỗi gì thì chỉ cần chọn GENERATE APP KEY là xong.
 
 <br><br><br><br>
 
