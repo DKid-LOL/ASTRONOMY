@@ -22,8 +22,9 @@ class AdminHomeController extends Controller
         return view('admin.dashboard');
     }
     // upload planets
-    
-    public function add_planets(){
+
+    public function add_planets()
+    {
 
         $planets = Planet::all();
 
@@ -40,14 +41,13 @@ class AdminHomeController extends Controller
 
         $image = $request->image;
 
-        if($image)
-        {
+        if ($image) {
 
-            $imagename = time().'.'.$image->getClientOriginalExtension();
+            $imagename = time() . '.' . $image->getClientOriginalExtension();
 
             $request->image->move('images', $imagename);
 
-            $planets->image ='images/'. $imagename;
+            $planets->image = 'images/' . $imagename;
         }
 
         $planets->description = $request->description;
@@ -68,7 +68,8 @@ class AdminHomeController extends Controller
 
     }
     // upload comets
-    public function add_comets(){
+    public function add_comets()
+    {
 
         $comets = Comet::all();
 
@@ -86,14 +87,13 @@ class AdminHomeController extends Controller
 
         $image = $request->image;
 
-        if($image)
-        {
+        if ($image) {
 
-            $imagename = time().'.'.$image->getClientOriginalExtension();
+            $imagename = time() . '.' . $image->getClientOriginalExtension();
 
             $request->image->move('images', $imagename);
 
-            $comets->image ='images/'. $imagename;
+            $comets->image = 'images/' . $imagename;
         }
 
         $comets->description = $request->description;
@@ -114,7 +114,8 @@ class AdminHomeController extends Controller
 
     }
     //upload constellation
-    public function add_constellation(){
+    public function add_constellation()
+    {
 
         $constellations = Constellation::all();
 
@@ -132,14 +133,13 @@ class AdminHomeController extends Controller
 
         $image = $request->image;
 
-        if($image)
-        {
+        if ($image) {
 
-            $imagename = time().'.'.$image->getClientOriginalExtension();
+            $imagename = time() . '.' . $image->getClientOriginalExtension();
 
             $request->image->move('images', $imagename);
 
-            $constellations->image ='images/'. $imagename;
+            $constellations->image = 'images/' . $imagename;
         }
 
         $constellations->description = $request->description;
@@ -157,7 +157,8 @@ class AdminHomeController extends Controller
 
     }
     //upload observatory
-    public function add_observatory(){
+    public function add_observatory()
+    {
 
         $observatories = Observatory::all();
 
@@ -175,14 +176,13 @@ class AdminHomeController extends Controller
 
         $image = $request->image;
 
-        if($image)
-        {
+        if ($image) {
 
-            $imagename = time().'.'.$image->getClientOriginalExtension();
+            $imagename = time() . '.' . $image->getClientOriginalExtension();
 
             $request->image->move('images', $imagename);
 
-            $observatories->image = 'images/'. $imagename;
+            $observatories->image = 'images/' . $imagename;
         }
 
         $observatories->description = $request->description;
@@ -203,7 +203,8 @@ class AdminHomeController extends Controller
 
     }
     //upload news
-    public function add_news(){
+    public function add_news()
+    {
 
         $news = News::all();
 
@@ -221,14 +222,13 @@ class AdminHomeController extends Controller
 
         $image = $request->image;
 
-        if($image)
-        {
+        if ($image) {
 
-            $imagename = time().'.'.$image->getClientOriginalExtension();
+            $imagename = time() . '.' . $image->getClientOriginalExtension();
 
             $request->image->move('images', $imagename);
 
-            $news->image = 'images/'. $imagename;
+            $news->image = 'images/' . $imagename;
         }
 
         $news->slug = $request->slug;

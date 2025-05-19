@@ -10,7 +10,7 @@ class ObservatoryController extends Controller
     public function index()
     {
         $observatories = Observatory::all();
-        
+
 
         return view('observatory.index', [
             'observatories' => $observatories
@@ -20,7 +20,7 @@ class ObservatoryController extends Controller
     public function show($id)
     {
         $observatory = Observatory::findOrFail($id);
-        
+
         return view('observatory.show', compact('observatory'));
     }
 }

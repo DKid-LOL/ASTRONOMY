@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
+
 <body class="bg-gray-900 text-white font-sans">
     @include('layouts.header')
 
@@ -14,10 +16,12 @@
         <h1 class="text-4xl font-bold mb-6">About Us</h1>
         <div class="max-w-4xl text-center mb-10">
             <p class="text-xl mb-4">
-                Welcome to our Astronomy Website! This platform has been developed as an educational project with the purpose of studying and researching coding techniques.
+                Welcome to our Astronomy Website! This platform has been developed as an educational project with the
+                purpose of studying and researching coding techniques.
             </p>
             <p class="text-xl">
-                This website is primarily used for class assignments at Aptech. It aims to enhance our understanding and application of web development in the context of astronomy.
+                This website is primarily used for class assignments at Aptech. It aims to enhance our understanding and
+                application of web development in the context of astronomy.
             </p>
         </div>
         <div class="relative w-full max-w-xl h-24 flex flex-col items-center justify-center p-4">
@@ -55,4 +59,5 @@
 
     @include('layouts.footer')
 </body>
+
 </html>

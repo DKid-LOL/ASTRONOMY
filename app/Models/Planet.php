@@ -11,11 +11,11 @@ class Planet extends Model
 
     protected $fillable = [
         'name',
-        'image', 
-        'description', 
-        'diameter', 
-        'atmosphere', 
-        'distance_from_sun', 
+        'image',
+        'description',
+        'diameter',
+        'atmosphere',
+        'distance_from_sun',
         'distance_from_earth',
     ];
 }

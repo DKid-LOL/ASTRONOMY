@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <title>HomePage</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
+
 <body class="font-sans antialiased bg-gray-800 text-gray-200">
 
     @include('layouts.header')
@@ -17,17 +19,21 @@
             <a href="{{ route('planets.index') }}" class="space-y-2 group block">
                 <img src="{{ asset('/images/earth.jpg') }}" alt="Telescope" class="w-full object-cover h-48">
                 <div class="text-xl font-semibold group-hover:text-blue-300">About Planets</div>
-                <p>Our solar system has eight planets, and five dwarf planets - all located in an outer spiral arm of the Milky Way galaxy called the Orion Arm.</p>
+                <p>Our solar system has eight planets, and five dwarf planets - all located in an outer spiral arm of
+                    the Milky Way galaxy called the Orion Arm.</p>
             </a>
             <a href="{{ route('comet.index') }}" class="space-y-2 group block">
                 <img src="{{ asset('/images/halley.jpg') }}" alt="Sun" class="w-full object-cover h-48">
                 <div class="text-xl font-semibold group-hover:text-blue-300">About Comets</div>
-                <p>Comets are frozen leftovers from the formation of the solar system composed of dust, rock, and ices. They range from a few miles to tens of miles wide, but as they orbit closer to the Sun, they heat up and spew gases and dust into a glowing head that can be larger than a planet</p>
+                <p>Comets are frozen leftovers from the formation of the solar system composed of dust, rock, and ices.
+                    They range from a few miles to tens of miles wide, but as they orbit closer to the Sun, they heat up
+                    and spew gases and dust into a glowing head that can be larger than a planet</p>
             </a>
             <a href="{{ route('constellation.index') }}" class="space-y-2 group block">
                 <img src="{{ asset('/images/orion.jpg') }}" alt="Mars" class="w-full object-cover h-48">
                 <div class="text-xl font-semibold group-hover:text-blue-300">About Constellations</div>
-                <p>A constellation is a group of stars that appears to form a pattern or picture like Orion the Great Hunter, Leo the Lion, or Taurus the Bull.</p>
+                <p>A constellation is a group of stars that appears to form a pattern or picture like Orion the Great
+                    Hunter, Leo the Lion, or Taurus the Bull.</p>
             </a>
             <a href="{{ route('observatory.index') }}" class="space-y-2 group block">
                 <img src="{{ asset('/images/mauna_kea.jpg') }}" alt="NASA Logo" class="w-full object-cover h-48">
@@ -46,4 +52,5 @@
 
 
 </body>
+
 </html>

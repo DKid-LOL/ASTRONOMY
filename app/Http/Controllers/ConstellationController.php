@@ -10,7 +10,7 @@ class ConstellationController extends Controller
     public function index()
     {
         $constellations = Constellation::all();
-        
+
 
         return view('constellation.index', [
             'constellations' => $constellations
@@ -20,7 +20,7 @@ class ConstellationController extends Controller
     public function show($id)
     {
         $constellation = Constellation::findOrFail($id);
-        
+
         return view('constellation.show', compact('constellation'));
     }
 }

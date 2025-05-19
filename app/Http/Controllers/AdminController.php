@@ -9,17 +9,12 @@ use App\Models\Constellation;
 use App\Models\Observatory;
 use App\Models\News;
 
-
-
-
-
-
 class AdminController extends Controller
 {   //planet
     public function view_planets()
     {
         $planets = Planet::all();
-        return view ('admin.planets', compact('planets'));
+        return view('admin.planets', compact('planets'));
 
     }
     public function delete_planets($id)
@@ -49,12 +44,12 @@ class AdminController extends Controller
 
         if ($image) {
             $imagename = time() . '.' . $image->getClientOriginalExtension();
-    
+
             $image->move(public_path('images'), $imagename);
-    
+
             $planets->image = 'images/' . $imagename;
         }
-        
+
 
         $planets->description = $request->description;
 
@@ -75,7 +70,7 @@ class AdminController extends Controller
     public function view_comets()
     {
         $comets = Comet::all();
-        return view ('admin.comets', compact('comets'));
+        return view('admin.comets', compact('comets'));
 
     }
     public function delete_comets($id)
@@ -105,15 +100,14 @@ class AdminController extends Controller
         $image = $request->file('image');
 
 
-        if ($image)
-        {
+        if ($image) {
 
-            $imagename = time().'.'.$image->getClientOriginalExtension();
+            $imagename = time() . '.' . $image->getClientOriginalExtension();
 
             $image->move(public_path('images'), $imagename);
 
 
-            $comets->image ='images/'. $imagename;
+            $comets->image = 'images/' . $imagename;
 
         }
 
@@ -137,7 +131,7 @@ class AdminController extends Controller
     public function view_constellation()
     {
         $constellations = Constellation::all();
-        return view ('admin.constellation', compact('constellations'));
+        return view('admin.constellation', compact('constellations'));
 
     }
     public function delete_constellation($id)
@@ -167,15 +161,14 @@ class AdminController extends Controller
         $image = $request->file('image');
 
 
-        if($image)
-        {
+        if ($image) {
 
-            $imagename = time().'.'.$image->getClientOriginalExtension();
+            $imagename = time() . '.' . $image->getClientOriginalExtension();
 
             $image->move(public_path('images'), $imagename);
 
 
-            $constellations->image ='images/'. $imagename;
+            $constellations->image = 'images/' . $imagename;
 
         }
 
@@ -197,7 +190,7 @@ class AdminController extends Controller
     public function view_observatory()
     {
         $observatories = Observatory::all();
-        return view ('admin.observatory', compact('observatories'));
+        return view('admin.observatory', compact('observatories'));
 
     }
     public function delete_observatory($id)
@@ -227,15 +220,14 @@ class AdminController extends Controller
         $image = $request->file('image');
 
 
-        if($image)
-        {
+        if ($image) {
 
-            $imagename = time().'.'.$image->getClientOriginalExtension();
+            $imagename = time() . '.' . $image->getClientOriginalExtension();
 
             $image->move(public_path('images'), $imagename);
 
 
-            $observatories->image ='images/'. $imagename;
+            $observatories->image = 'images/' . $imagename;
 
         }
 
@@ -259,7 +251,7 @@ class AdminController extends Controller
     public function view_news()
     {
         $news = News::all();
-        return view ('admin.news', compact('news'));
+        return view('admin.news', compact('news'));
 
     }
     public function delete_news($id)
@@ -289,15 +281,14 @@ class AdminController extends Controller
         $image = $request->file('image');
 
 
-        if($image)
-        {
+        if ($image) {
 
-            $imagename = time().'.'.$image->getClientOriginalExtension();
+            $imagename = time() . '.' . $image->getClientOriginalExtension();
 
             $image->move(public_path('images'), $imagename);
 
 
-            $news->image ='images/'. $imagename;
+            $news->image = 'images/' . $imagename;
 
         }
 

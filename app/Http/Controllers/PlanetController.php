@@ -8,7 +8,6 @@ use App\Models\Planet;
 class PlanetController extends Controller
 {
     public function index()
-
     {
         $planets = Planet::all();
         return view('planets.index', [
@@ -19,7 +18,7 @@ class PlanetController extends Controller
     public function show($id)
     {
         $planet = Planet::findOrFail($id);
-        
+
         return view('planets.show', compact('planet'));
     }
 }
