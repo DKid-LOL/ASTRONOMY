@@ -1,48 +1,32 @@
-    ASTRONOMY
+# 🌌 ASTRONOMY PROJECT  
 
-<br><br><br>
+## 🚀 Hướng dẫn khởi động dự án  
 
-            HƯỚNG DẪN CHO AE CLONE REPOSITORY VỀ ĐỂ KHỞI ĐỘNG DỰ ÁN         
+🔹 **Lưu ý**: Hãy clone repository vào thư mục làm việc của **Laragon (.www)** hoặc **XAMPP (.htdocs)** để chạy server.
 
-    Lưu ý : Nhớ clone vào thư mục làm việc của laragon(.www) hoặc XAMPP(.htdocs) để chạy server
+### 🛠 Cài đặt môi trường  
 
-    1:  npm install ( cái này để cài đặt npm )
+```bash
+1️⃣ npm install         # Cài đặt npm  
+2️⃣ composer install    # Cài đặt Composer  
+3️⃣ cp .env.example .env  # Sao chép file env.example thành .env  
+4️⃣ npm run dev         # Biên dịch assets frontend  
+5️⃣ Mở terminal mới: Ctrl + Shift + `  
+6️⃣ php artisan serve  # Chạy server Laravel  
+7️⃣ Mở terminal mới: Ctrl + Shift + `  
+8️⃣ php artisan migrate:rollback  # Hoàn tác migration  
+9️⃣ php artisan migrate           # Chạy lại migration  
+🔟 php artisan db:seed            # Thêm dữ liệu mẫu  
+11️⃣ Mở trình duyệt và truy cập: [http://127.0.0.1:8000/]
+12️⃣ Nếu có lỗi, chọn **GENERATE APP KEY** để khắc phục.  
 
+🔹 Khởi động môi trường Docker bằng lệnh:
 
-    2:  composer install ( cài composer )
+    ./vendor/bin/sail up
 
+🔄 Mở lại DevContainer
 
-    3:  cp .env.example .env ( sao chép file env.example thành file .env)
+Nhấn Ctrl + Shift + P.
 
+Chọn "Dev Containers : Rebuild and Reopen in containers"
 
-    4:  npm run dev 
-
-
-    5:  tạo 1 terminal mới bằng ctrl + shift + `
-
-
-    6:  php artisan serve 
-
-
-    7:  tạo 1 terminal mới bằng ctrl + shift + `
-
-
-    8:  php artisan migrate:rollback 
-
-
-    9:  php artisan migrate 
-
-
-    10: php artisan db:seed
-
-
-    11: lên web truy cập vào http://127.0.0.1:8000/
-
-
-    12: nếu nó hiện lên lỗi gì thì chỉ cần chọn GENERATE APP KEY là xong.
-
-<br><br><br>
-
-            CÓ THỂ SỬ DỤNG DEVCONTAINER VÀ DOCKER BẰNG LỆNH : ./vendor/bin/sail up
-
-|..................................................................HẾT..................................................................|
